@@ -2,33 +2,33 @@ import React, { useEffect, useRef } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"; 
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons"; 
 import { 
+  faFacebook,
  faGithub, 
  faLinkedin, 
- faMedium, 
- faStackOverflow, 
+ faTwitter, 
 } from "@fortawesome/free-brands-svg-icons"; 
 import { Box, HStack } from "@chakra-ui/react"; 
  
 const socials = [ 
  { 
    icon: faEnvelope, 
-   url: "mailto: hello@example.com", 
+   url: "mailto: mohammedalhassannumair@hotmail.com", 
  }, 
  { 
    icon: faGithub, 
-   url: "https://www.github.com/sureskills", 
+   url: "https://github.com/mohammedNimear", 
  }, 
  { 
    icon: faLinkedin, 
-   url: "https://www.linkedin.com/in/sureskills/", 
+   url: "https://www.linkedin.com/in/mohammed-h-nimear-220413239", 
  }, 
  { 
-   icon: faMedium, 
-   url: "https://medium.com/@sureskills", 
+   icon: faTwitter, 
+   url: "https://twitter.com/numair_h", 
  }, 
  { 
-   icon: faStackOverflow, 
-   url: "https://stackoverflow.com/users/sureskills", 
+   icon: faFacebook, 
+   url: "https://web.facebook.com/m.h.numair", 
  }, 
 ]; 
 

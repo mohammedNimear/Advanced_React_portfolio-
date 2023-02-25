@@ -5,6 +5,7 @@ import FullScreenSection from "./FullScreenSection";
 const greeting = "Hello, I am Mohammedal Hassan !";
 const bio1 = "A Fullstack Developer";
 const bio2 = "Specialized in React & NodeJS";
+const profile_pic = () => require("../images/photo100.jpg")
 
 const LandingSection = () => ( 
  <FullScreenSection 
@@ -16,7 +17,7 @@ const LandingSection = () => (
    <VStack spacing={16}> 
      <VStack spacing={4} alignItems="center"> 
        <Avatar 
-         src="https://i.pravatar.cc/150?img=7" 
+         src={profile_pic()} 
          size="2xl" 
          name="Your Name" 
        /> 
@@ -25,10 +26,10 @@ const LandingSection = () => (
        </Heading> 
      </VStack> 
      <VStack spacing={6}> 
-       <Heading as="h1" size="3xl" noOfLines={1}> 
+       <Heading as="h2" size="3xl" noOfLines={1}> 
          {bio1} 
        </Heading> 
-       <Heading as="h1" size="3xl" noOfLines={1}> 
+       <Heading as="h3" size="3xl" noOfLines={1}> 
          {bio2} 
        </Heading> 
      </VStack> 
